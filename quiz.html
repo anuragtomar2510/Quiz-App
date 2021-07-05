@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Lato:ital,wght@1,300&display=swap" rel="stylesheet">
+        <link rel="stylesheet" href="style.css">
+        <title>Quiz App</title>
+</head>
+<body onload="show(0)">
+        <div class="container">
+
+                <div class="quiz">
+                        <div class="quiz-header">
+                                <div class="greet">
+                                        <div class="greet-with-name">
+                                                <h4>Welcome, <span class="user"></span></h4>
+                                        </div>
+                                </div>
+                                <div class="timer">
+                                        <div class="time"></div>
+                                </div>
+                        </div>
+                        <div class="quiz-body">
+                                <div class="question">
+
+                                         <div class="options">
+                                        
+                                         </div>
+
+                                </div>
+
+                                <button class="btn-next" onclick="next()">Next Question</button>
+                        </div>
+                </div>
+        </div>
+        
+        
+        <script src="./timer.js"></script>
+        <script src="./app.js"></script>
+</body>
+</html>
